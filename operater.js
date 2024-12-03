@@ -54,8 +54,27 @@
 
 
 // =======================comperision operater===================
-let a=5;
-let b="3";
-console.log("5!=5)", a!=b);
+// let a=5;
+// let b="3";
+// console.log("5!=5)", a!=b);
 
-console.log(a===b); // === is srictrictly check the type of variable and then compare the value;.
+// console.log(a===b); // === is srictrictly check the type of variable and then compare the value;.
+
+
+// logical operaters
+// logical AND(&&)
+// logical OR(||)
+// logical NOT(!)
+let a=5;
+let b=6;
+console.log("cond1|| cond2" , !(a<b));
+
+
+// Conditional statements
+let age=16;
+if(age>=18){
+    console.log("you can vote");
+} else{
+    console.log("you cannot vote");  
+}
+
