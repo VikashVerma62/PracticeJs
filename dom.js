@@ -31,3 +31,13 @@ console.log(para);
 let element=document.querySelector("p");
 console.dir(element);  
 console.log(element);
+
+let allEl=document.querySelectorAll(".heading");
+console.log(allEl);
+
+let hello=()=> {
+    document.querySelector(".heading");
+    console.log(haeding);
+    
+}
+hello();
