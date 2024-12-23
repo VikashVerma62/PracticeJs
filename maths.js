@@ -27,3 +27,10 @@ console.log(Math.abs(-4));                      // returns the absolute (positiv
 console.log(Math.trunc(4.5));                   // returns the integer part and remove the decimal part
 
  
+console.log((Math.random()*10)+1);
+console.log(Math.random()*100);
+
+const min=10;
+const max=20;
+Math.random()
+ 
